@@ -564,7 +564,7 @@ class EzEdit(QMainWindow):
         editor.setFoldMarginColors(QColor("#f0f0f0"), QColor("#d0d0d0"))
         
         editor.setIndentationGuides(True)
-        editor.setEdgeMode(QsciScintilla.EdgeLine)
+        editor.setEdgeMode(QsciScintilla.EdgeNone)
         editor.setEdgeColumn(80)
         editor.setEdgeColor(QColor("#E0E0E0"))
         editor.setCaretLineVisible(True)
